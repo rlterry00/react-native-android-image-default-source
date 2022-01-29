@@ -1,6 +1,6 @@
 {
   "name": "react-native-default-source",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A small library to allow default source image to show up on Android and iOS.",
   "main": "index.js",
   "scripts": {},

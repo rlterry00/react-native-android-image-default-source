@@ -1,6 +1,6 @@
 # react-native-default-source
 
-## Github [https://github.com/rlterry00/react-native-default-source](https://github.com/rlterry00/react-native-default-source)
+### Github [https://github.com/rlterry00/react-native-default-source](https://github.com/rlterry00/react-native-default-source)
 
 # About
 
