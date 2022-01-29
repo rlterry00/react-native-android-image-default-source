@@ -4,7 +4,7 @@
 
 # About
 
-This a small library that extends the default <Image /> component of react native to have a default source image that works on both Android and iOS in debug mode. By default Android ignores the defaultSource prop in debug mode so if your image url fails no image will show on Android during development.
+This a small library that extends the default `<Image />` component of react native to have a default source image that works on both Android and iOS in debug mode. By default Android ignores the defaultSource prop in debug mode so if your image url fails no image will show on Android during development.
 
 # Installation
 
