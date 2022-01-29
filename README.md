@@ -1,1 +1,1 @@
-# react-native-android-image-default-source
+# react-native-default-source
