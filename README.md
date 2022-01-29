@@ -8,8 +8,8 @@ This a small library that extends the default `<Image />` component of react nat
 
 # Installation
 
-==npm i react-native-default-source==
+`npm i react-native-default-source`
 
 # Using The Library
 
-Instead of using the standard <Image /> component you will use <DefaultSourceImage /> which extends the standard image component. All original <Image /> props are available in <DefualtSourceImg />
+Instead of using the standard `<Image />` component you will use `<DefaultSourceImage />` which extends the standard image component. All original `<Image />` props are available in `<DefualtSourceImg />`
