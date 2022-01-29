@@ -14,6 +14,14 @@ This a small library that extends the default `<Image />` component of react nat
 
 Instead of using the standard `<Image />` component you will use `<DefaultSourceImage />` which extends the standard image component. All original `<Image />` props are inherited in `<DefualtSourceImg />`
 
+| Prop                 | Description                                                       | Type   | Default                           |
+|----------------------|-------------------------------------------------------------------|--------|-----------------------------------|
+| sourceImg            | Source image for image component.                                 | object | Required                          |
+| defaultSourceImg     | Default image if image does not load.                             | object | Required                          |
+| imageContainerStyle  | Styles for the container view wrapped around the image component. | object | Optional                          |
+| imageStyle           | Styles for the image.                                             | object | Required for URL or remote images |
+| <Image {...props} /> | Inherited props from React Native's Image component               | props  | Optional                          |
+
 ### Example
 
 ```js
@@ -64,10 +72,4 @@ const styles = StyleSheet.create({
 });```
 
 
-| Prop                 | Description                                                       | Type   | Default                           |
-|----------------------|-------------------------------------------------------------------|--------|-----------------------------------|
-| sourceImg            | Source image for image component.                                 | object | Required                          |
-| defaultSourceImg     | Default image if image does not load.                             | object | Required                          |
-| imageContainerStyle  | Styles for the container view wrapped around the image component. | object | Optional                          |
-| imageStyle           | Styles for the image.                                             | object | Required for URL or remote images |
-| <Image {...props} /> | Inherited props from React Native's Image component               | props  | Optional                          |
+
