@@ -1,6 +1,6 @@
 {
   "name": "react-native-default-source",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small library to allow default source image to show up on Android and iOS.",
   "main": "index.js",
   "scripts": {},
@@ -8,7 +8,16 @@
     "react": "17.0.2",
     "react-native": "0.67.1"
   },
-  "keywords": ["react", "react native", "react-native", "image", "android", "ios", "component", "default source"],
+  "keywords": [
+    "react",
+    "react native",
+    "react-native",
+    "image",
+    "android",
+    "ios",
+    "component",
+    "default source"
+  ],
   "author": "Ramon R.L. Terry",
   "license": "MIT"
 }
