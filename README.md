@@ -63,7 +63,11 @@ const styles = StyleSheet.create({
   },
 });```
 
-| Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
+
+| Prop                 | Description                                                       | Type   | Default                           |
+|----------------------|-------------------------------------------------------------------|--------|-----------------------------------|
+| sourceImg            | Source image for image component.                                 | object | Required                          |
+| defaultSourceImg     | Default image if image does not load.                             | object | Required                          |
+| imageContainerStyle  | Styles for the container view wrapped around the image component. | object | Optional                          |
+| imageStyle           | Styles for the image.                                             | object | Required for URL or remote images |
+| <Image {...props} /> | Inherited props from React Native's Image component               | props  | Optional                          |
