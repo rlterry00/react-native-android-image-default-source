@@ -62,3 +62,8 @@ const styles = StyleSheet.create({
     marginLeft: 5,
   },
 });```
+
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
